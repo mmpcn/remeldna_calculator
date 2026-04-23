@@ -1,0 +1,16 @@
+services:
+  builder:
+    build: .
+    image: remeldna-builder
+    volumes:
+      # Mount your project folder into the container
+      - .:/app
+      # Cache Flutter pub packages between builds (faster rebuilds)
+      - flutter_pub_cache:/root/.pub-cache
+      # Cache Gradle between builds (much faster rebuilds)
+      - gradle_cache:/root/.gradle
+    command: flutter build apk --release
+
+volumes:
+  flutter_pub_cache:
+  gradle_cache:
