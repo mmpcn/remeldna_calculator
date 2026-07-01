@@ -64,7 +64,7 @@ This app is intended as a clinical decision support tool only. It does not repla
 ### Build and run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/meldna_calculator.git
+git clone https://github.com/mmpcn/meldna_calculator.git
 cd meldna_calculator
 flutter pub get
 dart run flutter_launcher_icons
