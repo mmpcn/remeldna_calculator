@@ -78,4 +78,21 @@
   "limitsAnticoagulant": "Si des comprimés anticoagulants sont pris (warfarine, acénocoumarol, rivaroxaban, apixaban, dabigatran, edoxaban), l'INR est fixé à 1,0.",
   "eurotransplantSource": "Source : Calculateur MELD d'EuroTransplant",
   "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator"
+  "exportImport": "Exporter / Importer",
+  "export": "Exporter les scores",
+  "exportCsv": "Enregistrer en CSV",
+  "exportJson": "Enregistrer en JSON",
+  "shareCsv": "Partager CSV",
+  "shareJson": "Partager JSON",
+  "exportSuccess": "Fichier enregistré dans Téléchargements : {filename}",
+  "@exportSuccess": {"placeholders": {"filename": {"type": "String"}}},
+  "exportError": "Échec de l'export : {error}",
+  "@exportError": {"placeholders": {"error": {"type": "String"}}},
+  "importJson": "Importer depuis JSON",
+  "importSuccess": "{count} entrées importées.",
+  "@importSuccess": {"placeholders": {"count": {"type": "int"}}},
+  "importError": "Échec de l'import : {error}",
+  "@importError": {"placeholders": {"error": {"type": "String"}}},
+  "importConfirm": "Les entrées importées seront ajoutées à votre historique existant. Continuer ?",
+  "importConfirmTitle": "Importer les scores ?"
 }

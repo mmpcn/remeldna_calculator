@@ -78,4 +78,21 @@
   "limitsAnticoagulant": "If blood-thinning tablets are taken (warfarin, acenocoumarol, rivaroxaban, apixaban, dabigatran, edoxaban), INR is set to 1.0.",
   "eurotransplantSource": "Source: EuroTransplant MELD Calculator",
   "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator"
+  "exportImport": "Export / Import",
+  "export": "Export scores",
+  "exportCsv": "Save as CSV",
+  "exportJson": "Save as JSON",
+  "shareCsv": "Share CSV",
+  "shareJson": "Share JSON",
+  "exportSuccess": "File saved to Downloads: {filename}",
+  "@exportSuccess": {"placeholders": {"filename": {"type": "String"}}},
+  "exportError": "Export failed: {error}",
+  "@exportError": {"placeholders": {"error": {"type": "String"}}},
+  "importJson": "Import from JSON",
+  "importSuccess": "Imported {count} entries.",
+  "@importSuccess": {"placeholders": {"count": {"type": "int"}}},
+  "importError": "Import failed: {error}",
+  "@importError": {"placeholders": {"error": {"type": "String"}}},
+  "importConfirm": "This will add the imported entries to your existing history. Continue?",
+  "importConfirmTitle": "Import scores?"
 }

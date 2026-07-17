@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:remeldna_calculator/l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../db/database_helper.dart';
 import '../models/meld_entry.dart';
+import 'export_screen.dart';
 
 class HistoryScreen extends StatefulWidget {
   const HistoryScreen({super.key});
@@ -39,7 +40,17 @@ class _HistoryScreenState extends State<HistoryScreen> {
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context)!;
     return Scaffold(
-      appBar: AppBar(title: Text(l.scoreHistory)),
+      appBar: AppBar(
+        title: Text(l.scoreHistory),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.import_export),
+            tooltip: l.exportImport,
+            onPressed: () => Navigator.push(context,
+                MaterialPageRoute(builder: (_) => const ExportScreen())),
+          ),
+        ],
+      ),
       body: FutureBuilder<List<MeldEntry>>(
         future: _entriesFuture,
         builder: (context, snapshot) {

@@ -78,4 +78,21 @@
   "limitsAnticoagulant": "Ako se uzimaju tablete za razrjeđivanje krvi (varfarin, acenocumarol, rivaroksaban, apiksaban, dabigatran, edoksaban), INR se postavlja na 1,0.",
   "eurotransplantSource": "Izvor: EuroTransplant MELD kalkulator",
   "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator"
+  "exportImport": "Izvoz / Uvoz",
+  "export": "Izvezi rezultate",
+  "exportCsv": "Spremi kao CSV",
+  "exportJson": "Spremi kao JSON",
+  "shareCsv": "Dijeli CSV",
+  "shareJson": "Dijeli JSON",
+  "exportSuccess": "Datoteka spremljena u Preuzimanja: {filename}",
+  "@exportSuccess": {"placeholders": {"filename": {"type": "String"}}},
+  "exportError": "Izvoz nije uspio: {error}",
+  "@exportError": {"placeholders": {"error": {"type": "String"}}},
+  "importJson": "Uvezi iz JSON-a",
+  "importSuccess": "Uvezeno {count} unosa.",
+  "@importSuccess": {"placeholders": {"count": {"type": "int"}}},
+  "importError": "Uvoz nije uspio: {error}",
+  "@importError": {"placeholders": {"error": {"type": "String"}}},
+  "importConfirm": "Uvezeni unosi bit će dodani postojećoj povijesti. Nastaviti?",
+  "importConfirmTitle": "Uvezi rezultate?"
 }

@@ -1,9 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:remeldna_calculator/l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class InfoScreen extends StatelessWidget {
+class InfoScreen extends StatefulWidget {
   const InfoScreen({super.key});
+  @override
+  State<InfoScreen> createState() => _InfoScreenState();
+}
+
+class _InfoScreenState extends State<InfoScreen> {
+  String _version = '';
+
+  @override
+  void initState() {
+    super.initState();
+    PackageInfo.fromPlatform().then((info) {
+      setState(() => _version = '${info.version} (build ${info.buildNumber})');
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -139,6 +154,10 @@ class InfoScreen extends StatelessWidget {
             const SizedBox(height: 8),
             const Text('Margarida Castro Neves',
                 style: TextStyle(fontSize: 15, height: 1.5)),
+            const SizedBox(height: 4),
+            if (_version.isNotEmpty)
+              Text('Version $_version',
+                  style: const TextStyle(fontSize: 13, color: Colors.grey)),
             const SizedBox(height: 4),
             Text(l.licenseText,
                 style: const TextStyle(

@@ -78,4 +78,21 @@
   "limitsAnticoagulant": "Bei Einnahme blutverdünnender Tabletten (Warfarin, Acenocoumarol, Rivaroxaban, Apixaban, Dabigatran, Edoxaban) wird INR auf 1,0 gesetzt.",
   "eurotransplantSource": "Quelle: EuroTransplant MELD-Rechner",
   "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator"
+  "exportImport": "Export / Import",
+  "export": "Scores exportieren",
+  "exportCsv": "Als CSV speichern",
+  "exportJson": "Als JSON speichern",
+  "shareCsv": "CSV teilen",
+  "shareJson": "JSON teilen",
+  "exportSuccess": "Datei gespeichert: {filename}",
+  "@exportSuccess": {"placeholders": {"filename": {"type": "String"}}},
+  "exportError": "Export fehlgeschlagen: {error}",
+  "@exportError": {"placeholders": {"error": {"type": "String"}}},
+  "importJson": "Aus JSON importieren",
+  "importSuccess": "{count} Einträge importiert.",
+  "@importSuccess": {"placeholders": {"count": {"type": "int"}}},
+  "importError": "Import fehlgeschlagen: {error}",
+  "@importError": {"placeholders": {"error": {"type": "String"}}},
+  "importConfirm": "Die importierten Einträge werden zur bestehenden Historie hinzugefügt. Fortfahren?",
+  "importConfirmTitle": "Scores importieren?"
 }

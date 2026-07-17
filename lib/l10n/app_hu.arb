@@ -78,4 +78,21 @@
   "limitsAnticoagulant": "Ha vérhígító tablettákat szed (warfarin, acenocumarol, rivaroxaban, apixaban, dabigatran, edoxaban), az INR értéke 1,0-ra lesz állítva.",
   "eurotransplantSource": "Forrás: EuroTransplant MELD-kalkulátor",
   "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator"
+  "exportImport": "Exportálás / Importálás",
+  "export": "Pontszámok exportálása",
+  "exportCsv": "Mentés CSV-ként",
+  "exportJson": "Mentés JSON-ként",
+  "shareCsv": "CSV megosztása",
+  "shareJson": "JSON megosztása",
+  "exportSuccess": "Fájl mentve a Letöltések mappába: {filename}",
+  "@exportSuccess": {"placeholders": {"filename": {"type": "String"}}},
+  "exportError": "Exportálás sikertelen: {error}",
+  "@exportError": {"placeholders": {"error": {"type": "String"}}},
+  "importJson": "Importálás JSON-ból",
+  "importSuccess": "{count} bejegyzés importálva.",
+  "@importSuccess": {"placeholders": {"count": {"type": "int"}}},
+  "importError": "Importálás sikertelen: {error}",
+  "@importError": {"placeholders": {"error": {"type": "String"}}},
+  "importConfirm": "Az importált bejegyzések hozzáadódnak a meglévő előzményekhez. Folytatja?",
+  "importConfirmTitle": "Pontszámok importálása?"
 }
