@@ -45,7 +45,7 @@ RUN yes | sdkmanager --licenses && \
         "build-tools;34.0.0"
 
 # --- Flutter SDK ---
-RUN git clone --depth 1 --branch stable \
+RUN git clone --depth 1 --branch 3.35.2 \
     https://github.com/flutter/flutter.git ${FLUTTER_HOME}
 
 # --- Pre-download Flutter dependencies ---
