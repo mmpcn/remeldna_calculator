@@ -248,4 +248,52 @@ class AppLocalizationsHu extends AppLocalizations {
   @override
   String get eurotransplantUrl =>
       'https://www.eurotransplant.org/meld-calculator';
+
+  @override
+  String get exportImport => 'Exportálás / Importálás';
+
+  @override
+  String get export => 'Pontszámok exportálása';
+
+  @override
+  String get exportCsv => 'Mentés CSV-ként';
+
+  @override
+  String get exportJson => 'Mentés JSON-ként';
+
+  @override
+  String get shareCsv => 'CSV megosztása';
+
+  @override
+  String get shareJson => 'JSON megosztása';
+
+  @override
+  String exportSuccess(String filename) {
+    return 'Fájl mentve a Letöltések mappába: $filename';
+  }
+
+  @override
+  String exportError(String error) {
+    return 'Exportálás sikertelen: $error';
+  }
+
+  @override
+  String get importJson => 'Importálás JSON-ból';
+
+  @override
+  String importSuccess(int count) {
+    return '$count bejegyzés importálva.';
+  }
+
+  @override
+  String importError(String error) {
+    return 'Importálás sikertelen: $error';
+  }
+
+  @override
+  String get importConfirm =>
+      'Az importált bejegyzések hozzáadódnak a meglévő előzményekhez. Folytatja?';
+
+  @override
+  String get importConfirmTitle => 'Pontszámok importálása?';
 }

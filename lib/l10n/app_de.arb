@@ -77,7 +77,7 @@
   "limitsDialysis": "Bei Dialyse zweimal oder mehr in den letzten 7 Tagen wird Kreatinin auf 2,5 mg/dl (221,1 µmol/l) gesetzt.",
   "limitsAnticoagulant": "Bei Einnahme blutverdünnender Tabletten (Warfarin, Acenocoumarol, Rivaroxaban, Apixaban, Dabigatran, Edoxaban) wird INR auf 1,0 gesetzt.",
   "eurotransplantSource": "Quelle: EuroTransplant MELD-Rechner",
-  "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator"
+  "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator",
   "exportImport": "Export / Import",
   "export": "Scores exportieren",
   "exportCsv": "Als CSV speichern",

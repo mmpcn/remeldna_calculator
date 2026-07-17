@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:remeldna_calculator/l10n/app_localizations.dart';
 import '../db/database_helper.dart';
 import '../models/meld_entry.dart';
 import 'export_screen.dart';

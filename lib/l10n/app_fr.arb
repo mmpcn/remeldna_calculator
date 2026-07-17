@@ -77,7 +77,7 @@
   "limitsDialysis": "Si la dialyse a été effectuée deux fois ou plus au cours des 7 derniers jours, la créatinine est fixée à 2,5 mg/dL (221,1 µmol/L).",
   "limitsAnticoagulant": "Si des comprimés anticoagulants sont pris (warfarine, acénocoumarol, rivaroxaban, apixaban, dabigatran, edoxaban), l'INR est fixé à 1,0.",
   "eurotransplantSource": "Source : Calculateur MELD d'EuroTransplant",
-  "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator"
+  "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator",
   "exportImport": "Exporter / Importer",
   "export": "Exporter les scores",
   "exportCsv": "Enregistrer en CSV",

@@ -77,7 +77,7 @@
   "limitsDialysis": "Se a diálise foi realizada duas ou mais vezes nos últimos 7 dias, a creatinina é definida como 2,5 mg/dL (221,1 µmol/L).",
   "limitsAnticoagulant": "Se tomar comprimidos anticoagulantes (varfarina, acenocumarol, rivaroxabano, apixabano, dabigatrano, edoxabano), o INR é definido como 1,0.",
   "eurotransplantSource": "Fonte: Calculadora MELD da EuroTransplant",
-  "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator"
+  "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator",
   "exportImport": "Exportar / Importar",
   "export": "Exportar scores",
   "exportCsv": "Guardar como CSV",

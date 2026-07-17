@@ -248,4 +248,52 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get eurotransplantUrl =>
       'https://www.eurotransplant.org/meld-calculator';
+
+  @override
+  String get exportImport => 'Export / Import';
+
+  @override
+  String get export => 'Export scores';
+
+  @override
+  String get exportCsv => 'Save as CSV';
+
+  @override
+  String get exportJson => 'Save as JSON';
+
+  @override
+  String get shareCsv => 'Share CSV';
+
+  @override
+  String get shareJson => 'Share JSON';
+
+  @override
+  String exportSuccess(String filename) {
+    return 'File saved to Downloads: $filename';
+  }
+
+  @override
+  String exportError(String error) {
+    return 'Export failed: $error';
+  }
+
+  @override
+  String get importJson => 'Import from JSON';
+
+  @override
+  String importSuccess(int count) {
+    return 'Imported $count entries.';
+  }
+
+  @override
+  String importError(String error) {
+    return 'Import failed: $error';
+  }
+
+  @override
+  String get importConfirm =>
+      'This will add the imported entries to your existing history. Continue?';
+
+  @override
+  String get importConfirmTitle => 'Import scores?';
 }

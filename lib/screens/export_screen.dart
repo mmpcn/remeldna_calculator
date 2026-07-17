@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:remeldna_calculator/l10n/app_localizations.dart';
 import '../db/database_helper.dart';
 import '../utils/export_service.dart';
 

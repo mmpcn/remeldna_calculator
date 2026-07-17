@@ -248,4 +248,52 @@ class AppLocalizationsSl extends AppLocalizations {
   @override
   String get eurotransplantUrl =>
       'https://www.eurotransplant.org/meld-calculator';
+
+  @override
+  String get exportImport => 'Izvoz / Uvoz';
+
+  @override
+  String get export => 'Izvozi rezultate';
+
+  @override
+  String get exportCsv => 'Shrani kot CSV';
+
+  @override
+  String get exportJson => 'Shrani kot JSON';
+
+  @override
+  String get shareCsv => 'Deli CSV';
+
+  @override
+  String get shareJson => 'Deli JSON';
+
+  @override
+  String exportSuccess(String filename) {
+    return 'Datoteka shranjena v Prenosi: $filename';
+  }
+
+  @override
+  String exportError(String error) {
+    return 'Izvoz ni uspel: $error';
+  }
+
+  @override
+  String get importJson => 'Uvozi iz JSON';
+
+  @override
+  String importSuccess(int count) {
+    return 'Uvoženo $count vnosov.';
+  }
+
+  @override
+  String importError(String error) {
+    return 'Uvoz ni uspel: $error';
+  }
+
+  @override
+  String get importConfirm =>
+      'Uvoženi vnosi bodo dodani obstoječi zgodovini. Nadaljujete?';
+
+  @override
+  String get importConfirmTitle => 'Uvozi rezultate?';
 }

@@ -541,6 +541,84 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'https://www.eurotransplant.org/meld-calculator'**
   String get eurotransplantUrl;
+
+  /// No description provided for @exportImport.
+  ///
+  /// In en, this message translates to:
+  /// **'Export / Import'**
+  String get exportImport;
+
+  /// No description provided for @export.
+  ///
+  /// In en, this message translates to:
+  /// **'Export scores'**
+  String get export;
+
+  /// No description provided for @exportCsv.
+  ///
+  /// In en, this message translates to:
+  /// **'Save as CSV'**
+  String get exportCsv;
+
+  /// No description provided for @exportJson.
+  ///
+  /// In en, this message translates to:
+  /// **'Save as JSON'**
+  String get exportJson;
+
+  /// No description provided for @shareCsv.
+  ///
+  /// In en, this message translates to:
+  /// **'Share CSV'**
+  String get shareCsv;
+
+  /// No description provided for @shareJson.
+  ///
+  /// In en, this message translates to:
+  /// **'Share JSON'**
+  String get shareJson;
+
+  /// No description provided for @exportSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'File saved to Downloads: {filename}'**
+  String exportSuccess(String filename);
+
+  /// No description provided for @exportError.
+  ///
+  /// In en, this message translates to:
+  /// **'Export failed: {error}'**
+  String exportError(String error);
+
+  /// No description provided for @importJson.
+  ///
+  /// In en, this message translates to:
+  /// **'Import from JSON'**
+  String get importJson;
+
+  /// No description provided for @importSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Imported {count} entries.'**
+  String importSuccess(int count);
+
+  /// No description provided for @importError.
+  ///
+  /// In en, this message translates to:
+  /// **'Import failed: {error}'**
+  String importError(String error);
+
+  /// No description provided for @importConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'This will add the imported entries to your existing history. Continue?'**
+  String get importConfirm;
+
+  /// No description provided for @importConfirmTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Import scores?'**
+  String get importConfirmTitle;
 }
 
 class _AppLocalizationsDelegate
