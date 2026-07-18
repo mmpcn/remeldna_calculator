@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:remeldna_calculator/l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -172,16 +172,28 @@ class _InfoScreenState extends State<InfoScreen> {
                 border: Border.all(
                     color: Colors.amber.shade700.withOpacity(0.4)),
               ),
-              child: Row(
+              child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Icon(Icons.warning_amber_rounded,
-                      color: Colors.amber.shade700, size: 22),
-                  const SizedBox(width: 10),
-                  Expanded(
-                    child: Text(l.disclaimer,
-                        style: const TextStyle(fontSize: 13, height: 1.5)),
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Icon(Icons.warning_amber_rounded,
+                          color: Colors.amber.shade700, size: 22),
+                      const SizedBox(width: 10),
+                      Expanded(
+                        child: Text(l.disclaimer,
+                            style: const TextStyle(fontSize: 13, height: 1.5)),
+                      ),
+                    ],
                   ),
+                  const SizedBox(height: 8),
+                  Text(l.ceDisclaimer,
+                      style: TextStyle(
+                          fontSize: 12,
+                          height: 1.5,
+                          color: Colors.amber.shade900,
+                          fontStyle: FontStyle.italic)),
                 ],
               ),
             ),

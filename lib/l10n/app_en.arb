@@ -77,7 +77,7 @@
   "limitsDialysis": "If dialysis was performed twice or more in the last 7 days, creatinine is set to 2.5 mg/dL (221.1 µmol/L).",
   "limitsAnticoagulant": "If blood-thinning tablets are taken (warfarin, acenocoumarol, rivaroxaban, apixaban, dabigatran, edoxaban), INR is set to 1.0.",
   "eurotransplantSource": "Source: EuroTransplant MELD Calculator",
-  "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator",
+  "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator"
   "exportImport": "Export / Import",
   "export": "Export scores",
   "exportCsv": "Save as CSV",
@@ -94,5 +94,6 @@
   "importError": "Import failed: {error}",
   "@importError": {"placeholders": {"error": {"type": "String"}}},
   "importConfirm": "This will add the imported entries to your existing history. Continue?",
-  "importConfirmTitle": "Import scores?"
+  "importConfirmTitle": "Import scores?",
+  "ceDisclaimer": "This app is not a CE-marked medical device and has not been evaluated by any regulatory authority."
 }

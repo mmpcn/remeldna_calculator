@@ -77,7 +77,7 @@
   "limitsDialysis": "Če je bila dializa opravljena dvakrat ali večkrat v zadnjih 7 dneh, se kreatinin nastavi na 2,5 mg/dL (221,1 µmol/L).",
   "limitsAnticoagulant": "Če se jemljejo tablete za redčenje krvi (varfarin, acenocumarol, rivaroksaban, apiksaban, dabigatran, edoksaban), se INR nastavi na 1,0.",
   "eurotransplantSource": "Vir: EuroTransplant MELD kalkulator",
-  "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator",
+  "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator"
   "exportImport": "Izvoz / Uvoz",
   "export": "Izvozi rezultate",
   "exportCsv": "Shrani kot CSV",
@@ -94,5 +94,6 @@
   "importError": "Uvoz ni uspel: {error}",
   "@importError": {"placeholders": {"error": {"type": "String"}}},
   "importConfirm": "Uvoženi vnosi bodo dodani obstoječi zgodovini. Nadaljujete?",
-  "importConfirmTitle": "Uvozi rezultate?"
+  "importConfirmTitle": "Uvozi rezultate?",
+  "ceDisclaimer": "Ta aplikacija ni medicinski pripomoček z oznako CE in je ni ocenila nobena regulativna oblast."
 }
