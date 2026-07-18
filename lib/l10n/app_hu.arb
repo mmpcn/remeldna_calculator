@@ -77,7 +77,7 @@
   "limitsDialysis": "Ha az elmúlt 7 napban kétszer vagy többször végeztek dialízist, a kreatinin értéke 2,5 mg/dL-re (221,1 µmol/L) lesz beállítva.",
   "limitsAnticoagulant": "Ha vérhígító tablettákat szed (warfarin, acenocumarol, rivaroxaban, apixaban, dabigatran, edoxaban), az INR értéke 1,0-ra lesz állítva.",
   "eurotransplantSource": "Forrás: EuroTransplant MELD-kalkulátor",
-  "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator"
+  "eurotransplantUrl": "https://www.eurotransplant.org/meld-calculator",
   "exportImport": "Exportálás / Importálás",
   "export": "Pontszámok exportálása",
   "exportCsv": "Mentés CSV-ként",
